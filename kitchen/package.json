@@ -1,0 +1,20 @@
+{
+  "name": "kitchen",
+  "version": "1.0.0",
+  "description": "- Khách Hàng Đặt Hàng Từ ứng dụng Table\r - Server Chuyển Món Ăn Vào Nhà Bếp",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^27.0.3"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1"
+  }
+}
