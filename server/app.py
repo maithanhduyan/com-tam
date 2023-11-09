@@ -1,8 +1,10 @@
 import psycopg2
 from flask import Flask, jsonify, render_template
+from flask_cors import CORS
 
 app = Flask(__name__)
 
+CORS(app)
 
 def get_db_connection():
     return psycopg2.connect(

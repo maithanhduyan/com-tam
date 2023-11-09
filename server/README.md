@@ -9,3 +9,6 @@
 > pip install Flask
 - Cài đặt từ requirements.txt
 > pip install -r requirements.txt
+
+- chạy server
+> python app.py
